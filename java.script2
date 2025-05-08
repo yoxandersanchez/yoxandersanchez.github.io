@@ -1,0 +1,67 @@
+function searchProducts() {
+    let input = document.getElementById("searchBar").value.toLowerCase();
+    let products = document.querySelectorAll(".product");
+
+    products.forEach(product => {
+        let productName = product.querySelector("h3").innerText.toLowerCase();
+        if (productName.includes(input)) {
+            product.style.display = "block";
+        } else {
+            product.style.display = "none";
+        }
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let currentSlide = 0;
+
+function moveSlide(direction) {
+const slides = document.querySelectorAll('.carousel-item');
+const totalSlides = slides.length;
+
+// Ocultar la diapositiva actual
+slides[currentSlide].classList.remove('active');
+
+// Calcular la nueva diapositiva
+currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+
+// Mostrar la nueva diapositiva
+slides[currentSlide].classList.add('active');
+
+// Mover el carrusel
+const carousel = document.querySelector('.carousel');
+carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+// Inicializar el carrusel
+document.addEventListener('DOMContentLoaded', () => {
+const slides = document.querySelectorAll('.carousel-item');
+slides[currentSlide].classList.add('active');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+

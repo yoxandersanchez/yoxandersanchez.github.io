@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Delicious Happy</title>
+		<link rel="icon" href="https://foodiex-yz.netlify.app/img/favicon.ico">
+        <script src="java.script"></script>
+		<link rel="stylesheet"
+        
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<span class="logo">
+				<a href="/">Delicious Happy</a>
+			</span>
+
+			<nav class="navigation-header">
+				<a href="index.html">Inicio</a>
+				<a href="dieta.html">Recetas</a>
+				<a href="reservas.html">reservaciones</a>
+				<a href="fisne.html">Contacto</a>
+                <a href="marcus.html">Mision,Vision y Valores</a>
+				<a href="beutifull.html">Nosotros</a>
+			</nav>
+
+			<ul class="social-links">
+				<li>
+					<a href="#">
+						<i class="fa-brands fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fa-brands fa-whatsapp"></i>
+					</a>
+				</li>
+
+				<a href="carrito.html">
+					<i class="fa-solid fa-cart-shopping"></i>
+				</a>
+			</li>
+
+			</ul>
+
+			<button class="btn-menu-responsive">
+				<i class="fa-solid fa-bars-staggered"></i>
+			</button>
+
+			<div class="menu-mobile">
+				<div class="btn-close">
+					<i class="fa-solid fa-x"></i>
+				</div>
+				<span class="logo">
+					<a href="/">Delicious Happy</a>
+				</span>
+
+			
+                <nav class="navigation-header">
+                    <a href="index.html">Inicio</a>
+                    <a href="dieta.html">Recetas</a>
+                    <a href="reservas.html">reservaciones</a>
+                    <a href="fisne.html">Contacto</a>
+                    <a href="marcus.html">Mision,Vision y Valores</a>
+                    <a href="beutifull.html">Nosotros</a>
+                    
+                </nav>
+        
+
+
+
+
+
+
+				<ul class="social-links">
+					<li>
+						<a href="#">
+							<i class="fa-brands fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa-brands fa-whatsapp"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+		
+
+
+<!-- Barra de búsqueda -->
+<div class="search-container">
+    <input type="text" id="searchBar" placeholder="Buscar productos..." onkeyup="searchProducts()">
+</div>
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<section class="container section-banner-hero">
+	<div class="carousel">
+		<div class="carousel-item active">
+			<div class="content">
+				<span class="badge-hot-recipes">
+					<i class="fa-solid fa-fire-flame-curved"></i>
+					Recetas Calientes
+				</span>
+
+				<h1>Alitas de pollo picantes</h1>
+
+				<p>
+					“Crujientes, sabrosas y perfectamente condimentadas:
+					Disfrute de la receta definitiva de deliciosas alitas de
+					pollo que le dejarán con ganas de más”
+				</p>
+
+				<div class="badges">
+					<span>
+						<i class="fa-solid fa-clock"></i>
+						30 minutos
+					</span>
+					
+				</div>
+			</div>
+			<div class="container-img">
+				<img
+					src="https://foodiex-yz.netlify.app/img/img-banner-hero.webp"
+					alt="Imagen Banner Hero"
+				/>
+			</div>
+		</div>
+
+		<div class="carousel-item">
+			<div class="content">
+				<span class="badge-hot-recipes">
+					<i class="fa-solid fa-fire-flame-curved"></i>
+					Recetas Frías
+				</span>
+
+				<h1>Ensalada César</h1>
+
+				<p>
+					“Fresca, crujiente y llena de sabor: 
+					La ensalada César es un clásico que nunca pasa de moda.”
+				</p>
+
+				<div class="badges">
+					<span>
+						<i class="fa-solid fa-clock"></i>
+						15 minutos
+					</span>
+				</div>
+			</div>
+			<div class="container-img">
+				<img
+					src="https://i.pinimg.com/236x/63/00/cc/6300ccb8fb4fd98e774e0766a51a8465.jpg"
+					alt="Imagen Banner Hero"
+				/>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	
+	  
+	<button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+<button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+</section>
+
+
+
+  
+<center>
+    <section class="container section-categories">
+        <div class="header">
+            <h2>Categoría #4</h2>
+			<a href="yaroa.html" class="btn-all-categories"
+			>Ver todas las categorias
+		</a>
+	</div>
+
+           
+        </div>
+
+        <div class="list-card-categories">
+            <div class="card-category breakfast">
+                <img src="https://foodiex-yz.netlify.app/img/icono-cake.svg" alt="Icono Desayuno" width="150px" />
+                <p>Postres</p>
+            </div>
+
+
+</center>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<div class="list-card-recipes">
+    <div class="card-recipe">
+        <div class="container-img">
+            <img src="https://i.pinimg.com/736x/d3/db/f9/d3dbf90a025ab229229799aa4b2ee40d.jpg" alt="Imagen Receta" />
+            <button class="btn-favorite">
+                <i class="fa-solid fa-heart"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <h3>Un rico y delicioso pastel de chocolate</h3>
+
+            <div class="footer">
+                <span class="time">
+                    <i class="fa-solid fa-clock"></i>
+                    30 minutos
+                </span>
+                <span class="category">
+                    <i class="fa-solid fa-utensils"></i>
+                    Desayuno
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="card-recipe">
+        <div class="container-img">
+            <img src="https://i.pinimg.com/736x/26/75/d7/2675d71396d515785595ec4f641be2f5.jpg" alt="Imagen Receta" />
+            <button class="btn-favorite">
+                <i class="fa-solid fa-heart"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <h3>Crème Brûlée.</h3>
+
+            <div class="footer">
+                <span class="time">
+                    <i class="fa-solid fa-clock"></i>
+                    30 minutos
+                </span>
+                <span class="category">
+                    <i class="fa-solid fa-utensils"></i>
+                    Pescado
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="card-recipe">
+        <div class="container-img">
+            <img src="https://i.pinimg.com/736x/59/03/48/590348ae2f2107fc30bfddd91512c4c0.jpg" alt="Imagen Receta" />
+            <button class="btn-favorite">
+                <i class="fa-solid fa-heart"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <h3>Flan (Caramel Custard).</h3>
+
+            <div class="footer">
+                <span class="time">
+                    <i class="fa-solid fa-clock"></i>
+                    30 minutos
+                </span>
+                <span class="category">
+                    <i class="fa-solid fa-utensils"></i>
+                    Dulce
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="card-recipe">
+        <div class="container-img">
+            <img src="https://i.pinimg.com/736x/fd/cf/a8/fdcfa893de626ba20d4ae73bff6a670f.jpg" alt="Imagen Receta" />
+            <button class="btn-favorite">
+                <i class="fa-solid fa-heart"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <h3>Ice Cream Sundae with Banana Split and Nuts.</h3>
+
+            <div class="footer">
+                <span class="time">
+                    <i class="fa-solid fa-clock"></i>
+                    30 minutos
+                </span>
+                <span class="category">
+                    <i class="fa-solid fa-utensils"></i>
+                  desayuno
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card-recipe">
+        <div class="container-img">
+            <img src="https://i.pinimg.com/736x/af/ba/41/afba419498c0caf2fc58be06180a19c1.jpg" alt="Imagen Receta" />
+            <button class="btn-favorite">
+                <i class="fa-solid fa-heart"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <h3>Un rico y sabroso volcan de  mermelada fresa.</h3>
+
+            <div class="footer">
+                <span class="time">                        
+              <i class="fa-solid fa-clock"></i>
+                    30 minutos
+                </span>
+                <span class="category">
+                    <i class="fa-solid fa-utensils"></i>
+                   desayuno
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card-recipe">
+        <div class="container-img">
+            <img src="https://i.pinimg.com/736x/71/3b/3f/713b3fe9d27d7d7dacfc1557c2d632fa.jpg" alt="Imagen Receta" />
+            <button class="btn-favorite">
+                <i class="fa-solid fa-heart"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <h3>Unas ricas y deliciosa tarta de frambuesa.</h3>
+
+            <div class="footer">
+                <span class="time">
+                    <i class="fa-solid fa-clock"></i>
+                    30 minutos
+                </span>
+                <span class="category">
+                    <i class="fa-solid fa-utensils"></i>
+                    desayuno
+                </span>
+            </div>
+        </div>
+    </div>

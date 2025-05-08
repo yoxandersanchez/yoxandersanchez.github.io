@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Happy</title>
+    <link rel="icon" href="https://foodiex-yz.netlify.app/img/favicon.ico">
+    <link rel="stylesheet"
+    
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="java.script2"></script>
+</head>
+<bodyy>
+
+    
+
+
+
+    <header>
+        <span class="logo">
+            <a href="/">Delicious Happy</a>
+        </span>
+
+        <nav class="navigation-header">
+            <a href="index.html">Inicio</a>
+            <a href="dieta.html">Recetas</a>
+            <a href="reservas.html">reservaciones</a>
+            <a href="fisne.html">Contacto</a>
+            <a href="marcus.html">Mision,Vision y Valores</a>
+            <a href="beutifull.html">Nosotros</a>
+
+        </nav>
+
+        <ul class="social-links">
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </li>
+
+
+            <a href="carrito.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </li>
+
+
+        </ul>
+
+        <button class="btn-menu-responsive">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+
+        <div class="menu-mobile">
+            <div class="btn-close">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <span class="logo">
+                <a href="/">Delicious Happy</a>
+            </span>
+
+            <nav class="navigation-mobile">
+                <a href="#">Inicio</a>
+                <a href="#">Recetas</a>
+                <a href="#">Blog</a>
+                <a href="#">Contacto</a>
+                <a href="#">Nosotros</a>
+            </nav>
+            
+            <ul class="social-links">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>Formulario de Reservaciones</h1>
+
+  <div class="form-container">
+    <form id="reservationForm">
+      <input type="text" id="name" placeholder="Tu nombre" required />
+      <input type="date" id="date" required />
+      <input type="time" id="time" required />
+      <button type="submit">Reservar</button>
+    </form>
+  </div>
+
+  <div class="reservations-list" id="reservations">
+    <h2>Reservaciones Registradas</h2>
+    <ul id="reservationList"></ul>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  .form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  form button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  form button:hover {
+    background: #0056b3;
+  }
+
+  .reservations-list {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .reservations-list ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .reservations-list li {
+    background: #f0f0f0;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: #333;
+  }
+
+</style>
+
+
+
+
+
+
+
+</body>
+</html>
